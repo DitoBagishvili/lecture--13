@@ -1,0 +1,24 @@
+@media (max-width: 1141px) {
+    .container {
+        width: 90%;
+        
+    }
+    
+    
+    
+}
+
+@media (max-width: 1050px){
+    .flex1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    header{
+        margin-left: 50px;
+    }
+    .bigbox{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}

@@ -1,0 +1,272 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1167px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+body {
+  background-color: lightcyan;
+}
+
+header .container {
+  max-width: 1167px;
+  width: 100%;
+  margin: 0 auto;
+}
+header nav {
+  max-width: 500px;
+  height: 76px;
+  margin-top: 21px;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+header nav ul li a {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+}
+
+.container h2 {
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 30px;
+  padding: 42px 0px 27px 0px;
+}
+.container .flex1 {
+  display: flex;
+  justify-content: space-between;
+}
+.container .flex1 .div1 {
+  position: relative;
+  width: 362px;
+  height: 360px;
+  background-color: white;
+}
+.container .flex1 .div1 h2 {
+  position: absolute;
+  margin-top: -150px;
+  margin-left: 41px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  color: white;
+}
+.container .flex1 .div1 p {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 12px;
+  color: #8A8787;
+}
+.container .flex1 .div1 .p1 {
+  max-width: 270px;
+  width: 100%;
+  height: 26px;
+  margin: auto;
+  margin-top: 68px;
+}
+.container .flex1 .div1 .p2 {
+  max-width: 270px;
+  width: 100%;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.container h2 {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 28px;
+}
+
+.container .bigbox {
+  display: flex;
+}
+.container .bigbox .smallbox1 {
+  height: 902px;
+  max-width: 758px;
+  width: 100%;
+}
+.container .bigbox .smallbox1 img {
+  margin-bottom: 30px;
+}
+.container .bigbox .smallbox2 {
+  width: 388px;
+  height: 902px;
+}
+.container .bigbox .smallbox2 img {
+  margin-left: 45px;
+}
+.container .bigbox .smallbox2 .img2 {
+  margin-top: 98px;
+  margin-bottom: 103px;
+}
+
+footer {
+  background-color: #243043;
+  margin-top: 36px;
+  height: 201px;
+}
+footer .container .flexdiv {
+  max-width: 1040px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+footer .container .flexdiv .ft1 {
+  margin-top: 59px;
+  height: 135px;
+  width: 200px;
+}
+footer .container .flexdiv .ft1 nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .container .flexdiv .ft1 nav ul li {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14px;
+  color: #818687;
+  margin-bottom: 14px;
+}
+footer .container .flexdiv .ft2 {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 59px;
+  max-width: 300px;
+  width: 100%;
+}
+footer .container .flexdiv .ft2 h3 {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  color: white;
+}
+footer .container .flexdiv .img3 {
+  margin-top: 58px;
+  margin-left: 100px;
+}/*# sourceMappingURL=global.css.map */
